@@ -1,0 +1,22 @@
+{
+    "name": "vv/lab4",
+    "description": "php lab 4",
+    "require": {
+        "illuminate/database": "^12.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vv\\Lab4\\": "src/"
+        },
+        "classmap": [
+            "src/Model/"
+        ],
+        "files": ["config.php"]
+    },
+    "authors": [
+        {
+            "name": "Abdelrahman Salah",
+            "email": "abdelrahmansalah211@gmail.com"
+        }
+    ]
+}
